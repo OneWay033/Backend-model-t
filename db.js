@@ -174,7 +174,7 @@ app.get("/api/clients", authenticateToken, (req, res) => {
   });
 });
 
-//------------------------ ดึง  ข้อมูล clients-------------------------
+//------------------------ ดึง ข้อมูล clients-------------------------
 app.get("/api/clients-by-client_id", authenticateToken, (req, res) => {
   // Extract client_id from query parameters
   const clientId = req.query.client_id;
